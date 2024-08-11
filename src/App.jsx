@@ -4,16 +4,14 @@ import Nav from './Components/Nav'
 import ImgChange from './Components/ImgChange'
 
 function App() {
-
-
   return (
-   <div className='w-screen h-screen overflow-hidden mx-11'>
-
- 
-    <Nav />
-    <ImgChange />
-    <H1/>
-   </div>
+    <div className="h-screen flex flex-col justify-between mx-11">
+      <Nav />
+      <div className="flex-grow">
+        <ImgChange />
+      </div>
+      <H1 />
+    </div>
   )
 }
 
