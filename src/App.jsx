@@ -5,9 +5,9 @@ function App() {
 
 
   return (
-    <div className='w-full h-full'>
-      <div className='flex  justify-center'>
-     <h1 className='text-[#FF4000] text-[228px] tracking-[-0.11em]'>ENGINEER</h1>
+    <div className='w-full h-full '>
+      <div className='flex justify-center items-center'>
+        <h1 className='text-[#F13C00] text-[260px] tracking-[-0.11em] mt-32 leading-8'>ENGINEER</h1>
      </div>
     </div>
   )
