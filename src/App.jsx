@@ -1,14 +1,18 @@
 import './App.css'
 import H1 from './Components/h1'
 import Nav from './Components/Nav'
+import ImgChange from './Components/ImgChange'
 
 function App() {
 
 
   return (
    <div className='w-screen h-screen overflow-hidden'>
+
+ 
     <Nav />
-       <H1/>
+    <ImgChange />
+    <H1/>
    </div>
   )
 }
