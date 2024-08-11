@@ -7,7 +7,7 @@ function App() {
 
 
   return (
-   <div className='w-screen h-screen overflow-hidden'>
+   <div className='w-screen h-screen overflow-hidden mx-11'>
 
  
     <Nav />
