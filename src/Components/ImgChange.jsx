@@ -6,6 +6,7 @@ import Proj2 from './ProjectImg/Proj2.jpeg'
 import Proj3 from './ProjectImg/Proj3.jpeg'
 import Proj4 from './ProjectImg/Proj4.jpeg'
 import Proj5 from './ProjectImg/Proj5.jpeg'
+import Proj6 from './ProjectImg/Proj6.jpeg'
 
 const ImgChange = () => {
   return (
@@ -34,7 +35,9 @@ const ImgChange = () => {
                 <img src={Proj5} alt="" className='object-cover w-full h-full' />
             </div>
 
-            <div className='w-[80px] h-[80px] bg-[#3E3E3E]'></div>
+            <div className='w-[80px] h-[80px] bg-[#3E3E3E]'>
+            <img src={Proj6} alt="" className='object-cover w-full h-full' />
+            </div>
       </div>
 
 
