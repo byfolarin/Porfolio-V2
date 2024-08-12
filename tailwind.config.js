@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'Bebas': ['BebasNeue-Regular', 'sans-serif'],
+    },
   },
   plugins: [],
 }
