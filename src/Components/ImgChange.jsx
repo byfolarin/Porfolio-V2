@@ -4,7 +4,7 @@ import Project from './Project'
 const ImgChange = () => {
   return (
     
-    <div className='flex  flex-row items-start mt-8 gap-32'>
+    <div className='flex  flex-row items-start mt-8 gap-64'>
 
         
       <Project />

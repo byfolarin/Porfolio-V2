@@ -6,11 +6,13 @@ import ImgChange from './Components/ImgChange'
 function App() {
   return (
     <div className="h-screen flex flex-col justify-between mx-11 overflow-hidden">
-      <Nav />
-      <div className="flex-grow">
-        <ImgChange />
-      </div>
-      <H1 />
+
+        <Nav/>
+          <div className="flex-grow">
+            <ImgChange />
+          </div>
+        <H1/>
+        
     </div>
   )
 }
