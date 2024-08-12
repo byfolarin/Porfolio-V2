@@ -8,7 +8,7 @@ const Project = () => {
         <h2 className='text-[#F13C00] font-mono'>PROJECTS</h2>
       </div>
 
-            <div className='text-[white] font-mono mt-8'>
+            <div className='text-[white] font-mono mt-8 cursor-pointer'>
             <p className='hover:text-[#F13C00]'>Blank CMS</p>
             <p className='hover:text-[#F13C00]'>Playgroud</p>
             <p className='hover:text-[#F13C00]'>Selah</p>
