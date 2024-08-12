@@ -8,7 +8,7 @@ const H1 = () => {
 
       <div className=" w-full flex justify-center lg:justify-end"> {/* Added full width and horizontal padding */}
 
-        <h1 className='text-[#F13C00] text-[128px]  lg:text-[350px] tracking-[-0.05em] leading-11 lg:pb-64 lg:pr-4'> 
+        <h1 className='text-[#F13C00] text-[128px]  lg:text-[350px] tracking-[-0.05em] leading-11 lg:pb-[300px] lg:pr-4'> 
           ENGINEER
         </h1>
 
