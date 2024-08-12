@@ -20,7 +20,9 @@ const Project = () => {
 
             <motion.p whileHover={{ x: 10 }} className='hover:text-[#F13C00]'>Musicanny</motion.p>
 
-            <motion.p whileHover={{ x: 10 }} className='hover:text-[#F13C00]'>AWIP</motion.p>
+            <motion.p whileHover={{ x: 10 }} className='hover:text-[#F13C00]'>ZigZag</motion.p>
+
+            <motion.p whileHover={{ x: 10 }} className='hover:text-[#F13C00]'>Zenith Finance</motion.p>
 
             </div>
 
