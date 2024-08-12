@@ -3,8 +3,8 @@ import React from 'react'
 const H1 = () => {
   return (
     <div className="h-screen flex items-center justify-end">
-      <div className="mb-8 w-full flex  justify-end px-4"> {/* Added full width and horizontal padding */}
-        <h1 className='text-[#F13C00] text-[190px] tracking-[-0.11em] '> 
+      <div className=" w-full flex  justify-start px-4"> {/* Added full width and horizontal padding */}
+        <h1 className='text-[#F13C00] text-[190px] tracking-[-0.05em] leading-11'> 
           ENGINEER
         </h1>
       </div>

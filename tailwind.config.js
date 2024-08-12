@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'Bebas': ['BebasNeue-Regular', 'sans-serif'],
+        'BebasNeue': ['BebasNeue-Regular', 'sans-serif'],
       },
     },
   },
