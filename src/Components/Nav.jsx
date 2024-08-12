@@ -5,7 +5,7 @@ const Nav = () => {
     <div className='text-[white] flex justify-between mt-8 '>
       <div>
         <h2 className='font-mono'>FOLARIN ABIOLA</h2>
-        <h2 className='font-mono text-[#F13C00]'>ABOUT</h2>
+        <h2 className='font-mono text-[#F13C00] cursor-pointer'>ABOUT</h2>
       </div>
 
       <div className='flex gap-2'>
@@ -15,7 +15,7 @@ const Nav = () => {
       </div>
 
       <div>
-        <h2 className='font-mono'>CONTACT</h2>
+        <h2 className='font-mono cursor-pointer'>CONTACT</h2>
       </div>
     </div>
   )
