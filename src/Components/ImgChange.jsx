@@ -1,5 +1,6 @@
 import React from 'react'
 import Project from './Project'
+import { motion } from "framer-motion"
 
 const ImgChange = () => {
   return (
@@ -11,7 +12,7 @@ const ImgChange = () => {
 
 
       <div  className='flex items-start justify-center gap-2 mt-6 cursor-pointer'>
-            <div className='w-[80px] h-[87px] bg-[#3E3E3E]'></div>
+            <motion.div  whileHover={{ scale: 1.2 }} className='w-[80px] h-[87px] bg-[#3E3E3E]'></motion.div>
             <div className='w-[80px] h-[80px] bg-[#3E3E3E]'></div>
             <div className='w-[80px] h-[87px] bg-[#3E3E3E]'></div>
             <div className='w-[80px] h-[80px] bg-[#3E3E3E]'></div>

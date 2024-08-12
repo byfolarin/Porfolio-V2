@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion"
 
 const Project = () => {
   return (
@@ -9,11 +10,18 @@ const Project = () => {
       </div>
 
             <div className='text-[white] font-mono mt-8 cursor-pointer'>
-            <p className='hover:text-[#F13C00]'>Blank CMS</p>
-            <p className='hover:text-[#F13C00]'>Playgroud</p>
-            <p className='hover:text-[#F13C00]'>Selah</p>
-            <p className='hover:text-[#F13C00]'>Musicanny</p>
-            <p className='hover:text-[#F13C00]'>AWIP</p>
+
+
+            <motion.p whileHover={{ x: 10 }} className='hover:text-[#F13C00]'>Blank CMS</motion.p>
+
+            <motion.p whileHover={{ x: 10 }} className='hover:text-[#F13C00]'>Playgroud</motion.p>
+
+            <motion.p whileHover={{ x: 10 }} className='hover:text-[#F13C00]'>Selah</motion.p>
+
+            <motion.p whileHover={{ x: 10 }} className='hover:text-[#F13C00]'>Musicanny</motion.p>
+
+            <motion.p whileHover={{ x: 10 }} className='hover:text-[#F13C00]'>AWIP</motion.p>
+
             </div>
 
     </div>
