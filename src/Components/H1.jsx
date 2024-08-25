@@ -21,12 +21,12 @@ const H1 = () => {
   }
 
   return (
-    <div className="h-screen flex items-center justify-end">
-      <p className='font-mono text-[white] mb-[460px]'>PRODUCT</p>
+    <div className="h-screen flex flex-col items-center justify-center lg:items-end lg:justify-end">
+      <p className='font-mono text-[white] mb-4 lg:mb-[460px] text-center lg:text-right'>PRODUCT</p>
 
       <div className="w-full flex justify-center lg:justify-end">
         <div className="overflow-hidden">
-          <h1 className="text-[128px] lg:text-[350px] tracking-[-0.06em] leading-11 lg:pb-[300px] lg:pr-4 relative">
+          <h1 className="text-[128px] sm:text-[128px] md:text-[128px] lg:text-[350px] tracking-[-0.05em] leading-[0.8] text-center lg:text-right lg:pb-[300px] lg:pr-4 relative">
             {designerText.split('').map((letter, index) => (
               <span key={index} className="relative inline-block">
                 <AnimatePresence initial={false}>
@@ -60,7 +60,7 @@ const H1 = () => {
                       }}
                       className="absolute inset-0 flex items-center justify-center text-[#F13C00]"
                     >
-                      {engineerText[index] || letter}
+                      {engineerText[index] || ''}
                     </motion.span>
                   )}
                 </AnimatePresence>
