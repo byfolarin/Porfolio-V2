@@ -14,23 +14,34 @@ const H1 = () => {
     return () => clearInterval(interval)
   }, [])
 
+  const letterVariants = {
+    initial: { y: '100%' },
+    animate: { y: '0%' },
+    exit: { y: '-100%' }
+  }
+
   return (
     <div className="h-screen flex items-center justify-end">
       <p className='font-mono text-[white] mb-[460px]'>PRODUCT</p>
 
       <div className="w-full flex justify-center lg:justify-end">
-        <div className="overflow-hidden"> {/* Added this wrapper */}
-          <h1 className="text-[128px] lg:text-[350px] tracking-[-0.05em] leading-11 lg:pb-[300px] lg:pr-4 relative">
+        <div className="overflow-hidden">
+          <h1 className="text-[128px] lg:text-[350px] tracking-[-0.06em] leading-11 lg:pb-[300px] lg:pr-4 relative">
             {designerText.split('').map((letter, index) => (
               <span key={index} className="relative inline-block">
                 <AnimatePresence initial={false}>
                   {isDesigner ? (
                     <motion.span
                       key="designer"
-                      initial={{ y: '30%' }}
-                      animate={{ y: '0%' }}
-                      exit={{ y: '-100%' }}
-                      transition={{ duration: 0.5, delay: index * 0.05 }}
+                      variants={letterVariants}
+                      initial="initial"
+                      animate="animate"
+                      exit="exit"
+                      transition={{ 
+                        duration: 0.7, 
+                        delay: index * 0.05, 
+                        ease: [0.43, 0.13, 0.23, 0.96] 
+                      }}
                       className="absolute inset-0 flex items-center justify-center text-[#434343]"
                     >
                       {letter}
@@ -38,10 +49,15 @@ const H1 = () => {
                   ) : (
                     <motion.span
                       key="engineer"
-                      initial={{ y: '100%' }}
-                      animate={{ y: '0%' }}
-                      exit={{ y: '-100%' }}
-                      transition={{ duration: 0.5, delay: index * 0.05 }}
+                      variants={letterVariants}
+                      initial="initial"
+                      animate="animate"
+                      exit="exit"
+                      transition={{ 
+                        duration: 0.7, 
+                        delay: index * 0.05, 
+                        ease: [0.43, 0.13, 0.23, 0.96] 
+                      }}
                       className="absolute inset-0 flex items-center justify-center text-[#F13C00]"
                     >
                       {engineerText[index] || letter}
